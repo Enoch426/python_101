@@ -23,3 +23,13 @@ class Shampoo: #adding a class called Shampoo
 
     def all_(self):                                 #shortcut to print all four variable at once 
         print("\n\n" + self.brand + "\n\n " + self.use + "\n\n " + str(self.quantity) + "\n\n" + str(self.amount) + "\n\n")
+
+
+s1 = Shampoo("Neutrogina", "Dry scalp", 22, 16.99)
+s2 = Shampoo("Jupiter", "Dandruff", 23, 17.99)
+s3 = Shampoo("Biotique Kelp Protien", "Falling hair", 24, 18.99)
+s4 = Shampoo("shea", "Curly Hair", 25, 19.99)
+
+
+s1.brand_(),s1.use_(),s1.quantity_(),s1.amount_(), # s1.all_()
+
